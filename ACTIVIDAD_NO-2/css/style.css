@@ -1,0 +1,33 @@
+body {
+    background-color: #c4a9a9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.contenedor{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.botones{
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: rgb(243, 183, 140);
+    border-radius: 15px;
+}
+button:hover{
+    background-color: coral;
+}
+.informacion{
+    white-space: pre-wrap;
+    min-width: 200px;
+    padding: 10px;
+    text-align: center;
+}
