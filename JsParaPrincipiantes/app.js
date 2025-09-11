@@ -72,3 +72,32 @@ let userName = 'gordon';
 
     let completeName = name + last;
 
+//condicionales
+
+    if(result === true){
+        console.log('login correcto')
+    }
+
+    if (result === false) {
+        console.log('login incorrecto')
+    }
+
+    if (result == true) {
+        console.log('login correcto')
+    } else {
+        console.log('contraseña incorrecta')
+    }
+
+    let typeCard = 'debit card';
+
+    switch(typeCard){
+        case 'debit card':
+            console.log('tarjeta de debito')
+            break;
+        case 'credit card':
+            console.log('tarjeta de credito')
+            break;
+        default:
+            console.log('sin tarjeta')
+    }
+    
