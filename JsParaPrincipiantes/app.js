@@ -45,3 +45,9 @@ const PI = 3.1415;
 const id= 'user1';
 
 console.log(PI)
+
+//camelcase
+let userName = 'gordon';
+
+// esto es un comentario
+/* este tambien */
