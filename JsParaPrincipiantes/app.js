@@ -100,4 +100,29 @@ let userName = 'gordon';
         default:
             console.log('sin tarjeta')
     }
-    
+
+//Bucles
+    let count = 50;
+
+    while(count > 0){
+        console.log('hello world')
+        count = count - 1;
+    }
+
+    while (count > o) {
+        console.log(count)
+        count++;
+    }
+
+    let names = ['ryan', 'joe', 'jhom'];
+
+    console.log(names[0]);
+    console.log(names.length)
+
+    for (let i = 0; i < array.length; i++) {
+        console.log(names[i]);
+    }
+
+    for (let i = names.length - 1; i < 0; i--){
+        console.log(names[i]);
+    }
