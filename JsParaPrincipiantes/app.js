@@ -29,6 +29,19 @@ console.log({"Username": "ryan",
     "score": 70.4
 })
 
+// variables y constantes
 
+var nombredelusuario = "Jhon";
+console.log(nombredelusuario)
 
+let lastname = "carter";
+console.log(lastname)
 
+nombredelusuario = "pepe";
+
+console.log(nombredelusuario)
+
+const PI = 3.1415;
+const id= 'user1';
+
+console.log(PI)
