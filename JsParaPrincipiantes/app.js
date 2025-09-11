@@ -51,3 +51,24 @@ let userName = 'gordon';
 
 // esto es un comentario
 /* este tambien */
+
+//Operadores(+, -, *, /, <, >)
+    //numeros
+    let numberOne = 60;
+    let numberTwo = 100;
+
+    let result = numberOne + numberTwo; // suma
+    let result = numberOne - numberTwo; // resta
+    let result = numberOne * numberTwo; // multiplicación
+    let result = numberOne / numberTwo; // división
+    let result = numberOne < numberTwo; // comparación 1
+    let result = numberOne == numberTwo; //comparación 2
+    let result = numberOne != numberTwo; //comparación 3
+
+    console.log(result);
+    //string
+    let name = 'Jhon';
+    let last = 'Carter';
+
+    let completeName = name + last;
+
