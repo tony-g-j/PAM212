@@ -126,3 +126,19 @@ let userName = 'gordon';
     for (let i = names.length - 1; i < 0; i--){
         console.log(names[i]);
     }
+
+//funciones
+
+    function greeting(){ //definicion de la funcion
+        console.log('hello');
+    }
+
+    greeting(); //llamado de la funcion
+
+    function greeting(name){ //definicion de la funcion pasandole un valor
+        console.log('hello' + name);
+    }
+
+    greeting('paco');
+    greeting('pancho');
+    greeting('maria');
