@@ -12,3 +12,23 @@ document.write("<h1>Hello World</h1>");
     // array
         ['joe', 'ryan', 'martha']
         [1,2,3,4]
+    
+    // object
+    paco{
+        "username":'ryan',
+        "score": 70.4,
+        "hours": 14,
+        "professional": true
+    }
+
+// prueba en consola
+console.log('this is a string')
+console.log(true)
+console.log([1, 2, 3, 4])
+console.log({"Username": "ryan",
+    "score": 70.4
+})
+
+
+
+
