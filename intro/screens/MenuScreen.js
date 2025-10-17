@@ -1,7 +1,7 @@
 import { Text, StyleSheet, View, Button } from 'react-native';
 import React, { useState } from 'react';
 import ContadorScreen from './ContadorScreen';
-import BotonesScreen from './BotonesScreen';
+import BotonesScreen from './botones/BotonesScreen';
 import Text_AlertScreen from './Text_AlertScreen';
 import ScrollViewScreen from './ScrollViewScreen';
 import ModalScreen from './ModalScreen';
