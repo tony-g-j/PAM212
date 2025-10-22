@@ -7,7 +7,7 @@ import ScrollViewScreen from './ScrollViewScreen';
 import ModalScreen from './ModalScreen';
 import BottomSheetScreen from './BottomSheetScreen';
 import ListasScreen from './ListasScreen';
-import ImageBackgroundScreen from './ImageBackgroundScreen';
+import SplashScreen from './ImageBackgroundScreen';
 import ActivityIndicatorScreen from './ActivityIndicatorScreen';
 
 
@@ -29,7 +29,7 @@ export default function MenuScreen() {
     case 'listas':
       return <ListasScreen/>;
     case 'imgBackgroud':
-      return <ImageBackgroundScreen/>;
+      return <SplashScreen/>;
     case 'activityIndicator':
       return <ActivityIndicatorScreen/>;
     case 'menu':
