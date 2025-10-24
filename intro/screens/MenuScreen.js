@@ -9,7 +9,7 @@ import BottomSheetScreen from './BottomSheetScreen';
 import ListasScreen from './ListasScreen';
 import SplashScreen from './ImageBackgroundScreen';
 import ActivityIndicatorScreen from './ActivityIndicatorScreen';
-
+import Repaso_1 from './Repaso_1';
 
 export default function MenuScreen() {
   const [screen, setScreen] = useState('menu');
@@ -32,6 +32,8 @@ export default function MenuScreen() {
       return <SplashScreen/>;
     case 'activityIndicator':
       return <ActivityIndicatorScreen/>;
+    case 'Repaso_1':
+      return <Repaso_1/>
     case 'menu':
     default:
       return (
@@ -46,6 +48,7 @@ export default function MenuScreen() {
           <Button onPress={() => setScreen('listas')} title='Practica: Listas'/>
           <Button onPress={() => setScreen('imgBackgroud')} title='Practica: Image Background'/>
           <Button onPress={() => setScreen('activityIndicator')} title='Practica: Activity Indicator'/>
+          <Button onPress={ () => setScreen('Repaso_1')} title='Practica: Repaso 1'/>
         </View>
       );
   }
