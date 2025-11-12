@@ -184,7 +184,7 @@ export default function Repaso_1() {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        flex: 1 ,
         backgroundColor: "#ffce7aff",
         justifyContent: "center",
         alignItems: "center",
