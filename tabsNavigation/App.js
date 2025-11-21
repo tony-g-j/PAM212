@@ -6,6 +6,7 @@ import Home from "./screens/home";
 import Profile from "./screens/profile";
 import Settings from "./screens/settings";
 
+
 const Tab = createBottomTabNavigator();
 
 export default function app() {
